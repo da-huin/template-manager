@@ -6,20 +6,20 @@
  
 </p>
 
-<h3 align="center">YAML TEMPLATE</h3>
+<h3 align="center">TEMPLATE MANAGER</h3>
 
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/da-huin/yaml_template.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/da-huin/yaml_template.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/da-huin/template_manager.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/da-huin/template_manager.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
 
 ---
 
-<p align="center"> 쿠버네티스처럼 YAML 파일로 이루어진 템플릿을 쉽게 템플릿의 타입에 따라 다르게 처리해주는 패키지입니다.
+<p align="center"> 쿠버네티스처럼 YAML 파일로 이루어진 템플릿을 쉽게 관리하고, 템플릿의 타입에 따라 다르게 처리해주는 패키지입니다.
     <br> 
 </p>
 
@@ -32,7 +32,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-쿠버네티스처럼 YAML 파일로 이루어진 템플릿을 쉽게 템플릿의 타입에 따라 다르게 처리해주는 패키지입니다.
+쿠버네티스처럼 YAML 파일로 이루어진 템플릿을 쉽게 관리하고, 템플릿의 타입에 따라 다르게 처리해주는 패키지입니다.
 
 가장 간단한 예시를 들어보겠습니다.
 
@@ -88,7 +88,7 @@
 ### Installing
 
 ```
-pip install yaml_template
+pip install template_manager
 ```
 
 ### 🌱 Tutorial
@@ -131,9 +131,9 @@ pip install yaml_template
 
     ```python
     from pprint import pprint
-    import yaml_template
+    import template_manager
 
-    handler = yaml_template.YAMLTemplate("your_templates_directory/")
+    handler = template_manager.YAMLTemplate("your_templates_directory/")
 
     pprint(handler.get("one_plus_two"))
     ```
@@ -414,7 +414,7 @@ Register 에서 등록한 방식대로 템플릿을 처리 할 때 사용합니�
 
 - Title icon made by [Freepik](https://www.flaticon.com/kr/authors/freepik).
 
-- If you have a problem. please make [issue](https://github.com/da-huin/yaml_template/issues).
+- If you have a problem. please make [issue](https://github.com/da-huin/template_manager/issues).
 
 - Please help develop this project 😀
 
