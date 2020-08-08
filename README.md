@@ -93,9 +93,9 @@ pip install template_manager
 
 ### 🌱 Tutorial
 
-1. YAML 템플릿들을 저장할 폴더를 생성해야합니다. 원하는 곳에 `templates` 폴더를 생성하세요.
+1. **YAML 템플릿들을 저장할 폴더를 생성해야합니다. 원하는 곳에 `templates` 폴더를 생성하세요.**
 
-1. YAML 파일을 아래와 같이 생성하세요.
+1. **YAML 파일을 아래와 같이 생성하세요.**
 
     * `templates` 폴더 안에 파일을 recursive 하게 돌면서 파일을 찾아내기 때문에 깊숙한 곳에 넣어두어도 상관 없습니다.
     * 파일명은 어떤 것으로 해도 상관 없습니다.
@@ -127,7 +127,7 @@ pip install template_manager
         default_sentence: "Hello World"
     ```
 
-1. 아래의 코드를 실행하세요.
+1. **아래의 코드를 실행하세요.**
 
     ```python
     from pprint import pprint
@@ -156,7 +156,7 @@ pip install template_manager
     'tags': []}
     ```
 
-1. `plus` 를 처리하기 위해서 등록을 하고 처리 요청을 하는 아래의 코드를 실행하세요.
+1. **`plus` 를 처리하기 위해서 등록을 하고 처리 요청을 하는 아래의 코드를 실행하세요.**
 
     ```python
     # worker 는 반드시 spec 과 args 매개변수를 받아야 합니다.
@@ -174,7 +174,7 @@ pip install template_manager
     8
     ```
 
-1. 아까 만든 템플릿 중 하나는 `name` 키가 없는 아래와 같은 형식이었습니다. 이 템플릿을 불러와서 처리해보겠습니다.
+1. **아까 만든 템플릿 중 하나는 `name` 키가 없는 아래와 같은 형식이었습니다. 이 템플릿을 불러와서 처리해보겠습니다.**
 
     ```yaml
     kind: first_word_getter
@@ -217,7 +217,7 @@ pip install template_manager
     Yellow
     ```
 
-1. 튜토리얼이 끝났습니다.
+1. **튜토리얼이 끝났습니다.**
 
 ## 🎈 Usage <a name="usage"></a>
 
