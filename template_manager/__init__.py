@@ -8,7 +8,7 @@ import os
 import yaml
 
 
-class YAMLTemplate():
+class TemplateManager():
     """
     쿠버네티스처럼 YAML 파일로 이루어진 템플릿을 쉽게 템플릿의 타입에 따라 다르게 처리해주는 패키지입니다.
     """
