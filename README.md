@@ -91,7 +91,7 @@
 pip install template_manager
 ```
 
-### 🌱 Tutorial
+### 🚀 Tutorial
 
 1. **YAML 템플릿들을 저장할 폴더를 생성해야합니다. 원하는 곳에 `templates` 폴더를 생성하세요.**
 
@@ -378,7 +378,7 @@ Register 에서 등록한 방식대로 템플릿을 처리 할 때 사용합니�
 `Wokrer 가 처리한 결과`
 
 
-## Reference
+## ⛄ Reference
 
 #### 🌱 스키마를 사용하는 방법 (#how_to_use_schmea)
 
