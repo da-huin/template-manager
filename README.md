@@ -133,7 +133,7 @@ pip install template_manager
     from pprint import pprint
     import template_manager
 
-    handler = template_manager.YAMLTemplate("your_templates_directory/")
+    handler = template_manager.TemplateManager("your_templates_directory/")
 
     pprint(handler.get("one_plus_two"))
     ```
